@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+body{
+    position: relative;
+}
+.box{
+    height:100px;
+    width:1000px;
+    background-color: rgb(12,23,47);
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 120px;
+    position: absolute;
+    z-index: 1;
+    top:250px;
+    border-radius: 5px;
+    color: white;
+
+}
+.city-select{
+    font-size: 20px;
+    
+}
+a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 300;
+    font-size: 15px;
+    border: 1px solid white;
+}
+.submit{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+select{
+    padding: 5px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+    font-weight:lighter ;
+}
